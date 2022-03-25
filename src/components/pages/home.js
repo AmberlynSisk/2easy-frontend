@@ -9,7 +9,7 @@ export default function Home() {
                 <p className="title">Hate cleaning your gear for CIF?</p>
                 <p className="subtitle">We clean your TA-50, <br />so you don't have to!</p>
                 <button className="btn" type="button">
-                    <a href='/contact'>Contact Me Today!</a>
+                    Contact Us Today!
                 </button>
             </div>
         </div>

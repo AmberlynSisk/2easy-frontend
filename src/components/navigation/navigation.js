@@ -21,8 +21,8 @@ export default function Navigation() {
                     </A>
                 </div>
                 <div className='nav-link'>
-                    <A className="link" href='/prices'>
-                        Prices
+                    <A className="link" href='/services'>
+                        Services
                     </A>
                 </div>
                 <div className='nav-link'>
