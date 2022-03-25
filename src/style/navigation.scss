@@ -1,0 +1,35 @@
+.navigation-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100vw;
+    height: 180px;
+    margin: 0;
+
+    .logo-wrapper {
+        img {
+            height: 150px;
+            width: 100%;
+        }
+    }
+
+    .nav-link-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60vw;
+
+        .nav-link {
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 2em;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}
