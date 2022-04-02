@@ -1,6 +1,5 @@
 .about-container {
     margin-top: 60px;
-    margin-bottom: 30px;
     width: 100vw;
     height: 100%;
     display: flex;
@@ -22,6 +21,7 @@
         grid-gap: 20px;
         width: 85vw;
         margin-top: 40px;
+        margin-bottom: 40px;
 
         .about {
             display: flex;
@@ -39,7 +39,28 @@
             img {
                 height: 100%;
                 width: 400px;
+                border-radius: 6px;
             }
+        }
+    }
+
+    .hours-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px;
+        color: #393839;
+
+        .hours-title {
+            font-size: 4em;
+            margin-bottom: 20px;
+            font-family: 'Black Ops One', cursive;
+        }
+
+        .hours {
+            font-size: 1.7em;
         }
     }
 }

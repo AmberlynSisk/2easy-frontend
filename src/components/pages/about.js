@@ -2,6 +2,7 @@ import React from 'react';
 
 import ACH from '../images/ach.jpg';
 import Flag from '../images/flag.jpg';
+import HowItWorks from '../banners/howItWorks';
 
 export default function About() {
     return (
@@ -17,7 +18,7 @@ export default function About() {
                 </div>
 
                 <div className="about">
-                    <p>We are a veteran owned business. Having previously served in the Army, 
+                    <p>We are a veteran owned business, serving the Fort Hood area. Having previously served in the Army, 
                         we know what a pain it is to keep your gear clean and what an even bigger 
                         hassle it is to PCS or ETS. We created this business to help our customers 
                         save their time (and sanity) by cleaning your gear while you take care of 
@@ -34,6 +35,23 @@ export default function About() {
 
                 <div className="about-img">
                     <img src={Flag} />
+                </div>
+            </div>
+
+            <HowItWorks />
+
+            <div className="hours-wrapper">
+                <div className="hours-title">
+                    HOURS OF OPERATION
+                </div>
+                <div className="hours">
+                    Monday 10:00AM - 6:00PM <br /><br />
+                    Tuesday 10:00AM - 6:00PM <br /><br />
+                    Wednesday 10:00AM - 6:00PM <br /><br />
+                    Thursday 10:00AM - 6:00PM <br /><br />
+                    Friday 10:00AM - 6:00PM <br /><br />
+                    Saturday CLOSED <br /><br />
+                    Sunday CLOSED
                 </div>
             </div>
         </div>

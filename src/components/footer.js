@@ -1,18 +1,21 @@
 import React from 'react';
 
+import Logo from './images/logo.png';
+
 export default function Footer() {
     return (
         <div className="footer-container">
-            <div className="footer-contact-wrapper">
-                <div className="number">
-                    734-788-0482
+            <div className="three-col">
+                <div className="name">
+                    2 EASY - MILITARY GEAR CLEANERS
                 </div>
-                <div className="hours">
-                    M-F 10A-6P<br />
-                    SAT-SUN Closed
+
+                <div className="logo-wrapper">
+                    <img src={Logo} />
                 </div>
-                <div className="social">
-                    Facebook Logo Goes Here....
+
+                <div className="location">
+                    KILLEEN, TEXAS 76549
                 </div>
             </div>
         </div>

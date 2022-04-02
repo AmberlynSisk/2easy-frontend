@@ -6,8 +6,8 @@
     height: 160px;
     padding-left: 50px;
     margin: 0;
-    -webkit-box-shadow: 0px 3px 15px 10px #000000; 
-    box-shadow: 0px 3px 15px 10px #000000;
+    -webkit-box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.8); 
+    box-shadow: 0px 5px 8px 1px rgba(0,0,0,0.8);
 
     .logo-wrapper {
         img {
@@ -31,7 +31,7 @@
                 transition: 0.3s ease-in-out;
 
                 &:hover {
-                    color: red;
+                    color: #BD1E2C;
                 }
             }
         }

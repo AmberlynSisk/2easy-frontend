@@ -1,0 +1,70 @@
+.success-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    div {
+        font-size: 2em;
+    }
+
+    .btn {
+        cursor: pointer;
+        height: 42px;
+        width: 114px;
+        font-size: 1.6em;
+        font-weight: 500;
+        border: 1px solid transparent;
+        transition: all 0.5s ease-in-out;
+        background-color: #393839;
+        color: white;
+    
+        &:active,
+        &:focus {
+            outline: none;
+        }
+    
+        &:hover {
+            border: 1px solid #393839;
+            background-color: transparent;
+            color: #BD1E2C;
+        }
+    }
+}
+
+.error-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: red;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    .btn {
+        cursor: pointer;
+        height: 42px;
+        width: 114px;
+        font-size: 1.6em;
+        font-weight: 500;
+        border: 1px solid transparent;
+        transition: all 0.5s ease-in-out;
+        background-color: #393839;
+        color: white;
+    
+        &:active,
+        &:focus {
+            outline: none;
+        }
+    
+        &:hover {
+            border: 1px solid #393839;
+            background-color: transparent;
+            color: #BD1E2C;
+        }
+    }
+}
