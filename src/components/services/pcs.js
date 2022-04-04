@@ -21,7 +21,7 @@ export default function PCS() {
 
             <div className="price-wrapper">
                 <div className="timeframe"> 
-                    Allow 2 days for turnaround
+                    Allow 2 days<br /> for turnaround
                 </div>
                 <div className="price">
                     $120 - $160

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRoutes } from 'hookrouter';
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faFlagUsa, faSprayCanSparkles, faThumbsUp, faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFlagUsa, faSprayCanSparkles, faThumbsUp, faPhone, faEnvelope, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faDropbox } from "@fortawesome/free-brands-svg-icons";
 
 import Navigation from './navigation/navigation';
@@ -14,7 +14,9 @@ library.add(faFlagUsa,
             faDropbox, 
             faThumbsUp, 
             faPhone,
-            faEnvelope);
+            faEnvelope,
+            faBars,
+            faXmark);
 
 export default function App() {
   const routeResult = useRoutes(routes);

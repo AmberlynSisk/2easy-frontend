@@ -2,6 +2,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50vw;
 
     h1 {
         font-size: 3em;
@@ -68,5 +69,11 @@ form {
             background-color: transparent;
             color: #BD1E2C;
         }
+    }
+}
+
+@media screen and (max-width: 875px) {
+    form {
+        width: 90vw;
     }
 }

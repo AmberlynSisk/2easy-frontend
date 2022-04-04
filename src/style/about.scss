@@ -64,3 +64,22 @@
         }
     }
 }
+
+@media screen and (max-width: 875px) {
+    .about-container {
+        overflow-x: hidden;
+
+        .title {
+            h1 {
+                font-size: 3em;
+            }
+        }
+
+        .grid-wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 99vw;
+            
+        }
+    }
+}

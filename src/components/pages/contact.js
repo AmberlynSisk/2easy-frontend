@@ -29,15 +29,15 @@ export default function Contact() {
                             2easy.militarygear@gmail.com
                         </div>
                     </a>
-                    <a href="tel:7347880482" className="info-wrapper">
+                    <a href="tel:2543457322" className="info-wrapper">
                         <div className="info-logo">
                             <FontAwesomeIcon icon="fa-solid fa-phone" />
                         </div>
                         <div className="info">
-                            734-788-0482
+                            254-345-7322
                         </div>
                     </a>
-                    <a href="https://www.facebook.com/2-EASY-Military-Gear-Cleaners-109799651679304" className="info-wrapper">
+                    <a href="https://www.facebook.com/2-EASY-Military-Gear-Cleaners-109799651679304" target="_blank" className="info-wrapper">
                         <div className="info-logo">
                             <FontAwesomeIcon icon="fa-brands fa-facebook" />
                         </div>

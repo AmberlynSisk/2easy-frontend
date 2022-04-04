@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 
     .title {
         width: 90vw;
@@ -94,5 +95,27 @@
     .pcs-img {
         width: 400px;
         height: 100%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .services-container {
+        .title {
+            h1 {
+                font-size: 3em;
+            }
+        }
+    }
+    
+    .service-wrapper {
+        width: 90vw;
+    
+        .price-wrapper {
+            width: 90%;
+        }
+    
+        .service-list {
+            width: 75%;
+        }
     }
 }

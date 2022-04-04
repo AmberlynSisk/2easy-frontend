@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Logo from './images/logo.png';
+import Logo from './images/2E-Logo.png';
 
 export default function Footer() {
     return (
         <div className="footer-container">
             <div className="three-col">
                 <div className="name">
-                    2 EASY - MILITARY GEAR CLEANERS
+                    2 EASY - MGC
                 </div>
 
                 <div className="logo-wrapper">
@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
 
                 <div className="location">
-                    KILLEEN, TEXAS 76549
+                    KILLEEN, TX 76549
                 </div>
             </div>
         </div>
